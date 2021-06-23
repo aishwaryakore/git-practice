@@ -1,0 +1,85 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#signup
+{
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 200px 0px 200px 500px;
+}
+#left-box
+{
+  height: 300px;
+  width: 300px;
+  background: rgba(0,0,0,0.5);
+  padding: 50px;
+}
+#right-box
+{
+  height: 300px;
+  width: 300px;
+  background: rgba(0,0,0,0.5);
+  padding:50px;
+}
+h1
+{
+  margin: 5px;
+}
+h3
+{
+  margin: 10px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"]
+{
+  display: block;
+  padding: 5px;
+  outline: none;
+  margin-top: 10px;
+  font-size: 25px;
+}
+button
+{
+  font-size: 20px;
+  width: 250px;
+  margin: 5px;
+  padding: 10px 0px 10px 0px;
+  color: white;
+}
+button,input[type="submit"]:hover
+{
+  cursor: pointer;
+}
+.google
+{
+  background: #db4437;
+}
+.facebook
+{
+  background: #3b5998;
+}
+.twitter
+{
+  background: #00acee;
+}
+#left-box p
+{
+  margin-top:  5px;
+}
